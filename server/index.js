@@ -7,7 +7,7 @@ const port = 8080;
 app.use(cors())
 app.use(express.json())
 app.use(express.static('public'));
-app.get('/', (req, res) => {
+app.get('/',(req, res) => {
   console.log('req occured')
   res.sendFile(__dirname + '/public/index.html')
 })

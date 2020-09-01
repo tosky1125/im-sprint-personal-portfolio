@@ -1,28 +1,3 @@
-@media (max-width:800px){
-  footer {
-    flex-direction: column;
-  }
-  main {
-    flex-direction: column;
-  }
-  .sns {
-    display: flex;
-    flex-direction: row;
-  }
-  .contacts {
-    text-align: left;
-  }
-  #hamburger {
-    display: contents;
-  }
-  .rightmenu {
-    padding-right: 1rem;
-  }
-  Nav li {
-    display : none;
-  }
-}
-
 .navbar ul {
   list-style: none;
   display: table-row; 

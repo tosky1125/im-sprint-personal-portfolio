@@ -8,7 +8,7 @@ export const sns = [
 ]
 
 export const menus = ['Home', 'Stacks', 'Projects']
-
+export const link = ['/', 'stacks','projects']
 export let front = [
   {stack :'Javascript', tag: <i className="fab fa-js-square"></i>},
   {stack :'HTML', tag: <i className="fab fa-html5"></i>},

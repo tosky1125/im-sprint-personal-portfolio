@@ -25,6 +25,7 @@ class App extends React.Component {
   handleClickMenu(menu){
     this.setState({
       menu : menu,
+      hamburger : false
     })
   }
   handleMail(){
